@@ -152,7 +152,7 @@ module.exports = new (class Git {
    * @param tag
    * @return {Promise<>}
    */
-  createTag = (tag) => this.exec(`tag -a ${tag} -m "${tag}"`)
+  createTag = (tag) => {} // this.exec(`tag -a ${tag} -m "${tag}"`)
 
   /**
    * Validates the commands run
